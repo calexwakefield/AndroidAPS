@@ -109,7 +109,7 @@ fun UnifiedAuthDialog(
                 },
                 visualTransformation = PasswordVisualTransformation(),
                 keyboardOptions = KeyboardOptions(
-                    keyboardType = if (pinInput) KeyboardType.NumberPassword else KeyboardType.Password,
+                    keyboardType = if (pinInput) KeyboardType.Number else KeyboardType.Password,
                     imeAction = ImeAction.Done
                 ),
                 keyboardActions = KeyboardActions(
